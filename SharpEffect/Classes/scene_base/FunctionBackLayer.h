@@ -2,7 +2,7 @@
 //  FunctionBackLayer.h
 //  SharpEffect
 //
-//  Created by mfp on 16/3/22.
+//  Created by ccf on 16/3/22.
 //
 //
 

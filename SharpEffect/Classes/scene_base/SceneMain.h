@@ -2,7 +2,7 @@
 //  MainScene.h
 //  Hello
 //
-//  Created by mfp on 16/2/19.
+//  Created by ccf on 16/2/19.
 //
 //
 
