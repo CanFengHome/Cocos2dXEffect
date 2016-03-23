@@ -53,6 +53,12 @@
 		90C431D41CA11E71004A951F /* BaseDataListLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C431D21CA11E71004A951F /* BaseDataListLayer.cpp */; };
 		90C431D71CA120C2004A951F /* SceneMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C431D51CA120C2004A951F /* SceneMain.cpp */; };
 		90C431E01CA12CF3004A951F /* FunctionBackLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C431DE1CA12CF3004A951F /* FunctionBackLayer.cpp */; };
+		90C4320A1CA148A0004A951F /* LayerAnimationStudyUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C432081CA148A0004A951F /* LayerAnimationStudyUI.cpp */; };
+		90C4320F1CA15CA0004A951F /* LayerAnimationStudy00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C4320D1CA15CA0004A951F /* LayerAnimationStudy00.cpp */; };
+		90C432131CA15EB8004A951F /* LayerAnimationStudy01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C432111CA15EB8004A951F /* LayerAnimationStudy01.cpp */; };
+		90C432161CA160C7004A951F /* LayerAnimationStudy02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C432141CA160C7004A951F /* LayerAnimationStudy02.cpp */; };
+		90C432191CA16248004A951F /* LayerAnimationStudy03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C432171CA16248004A951F /* LayerAnimationStudy03.cpp */; };
+		90C4321C1CA164CF004A951F /* LayerAnimationStudy04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C4321A1CA164CF004A951F /* LayerAnimationStudy04.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -134,6 +140,20 @@
 		90C431D61CA120C2004A951F /* SceneMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneMain.h; sourceTree = "<group>"; };
 		90C431DE1CA12CF3004A951F /* FunctionBackLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionBackLayer.cpp; sourceTree = "<group>"; };
 		90C431DF1CA12CF3004A951F /* FunctionBackLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionBackLayer.h; sourceTree = "<group>"; };
+		90C432071CA14809004A951F /* animation_study.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = animation_study.h; sourceTree = "<group>"; };
+		90C432081CA148A0004A951F /* LayerAnimationStudyUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationStudyUI.cpp; sourceTree = "<group>"; };
+		90C432091CA148A0004A951F /* LayerAnimationStudyUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationStudyUI.h; sourceTree = "<group>"; };
+		90C4320C1CA14A40004A951F /* MacroDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		90C4320D1CA15CA0004A951F /* LayerAnimationStudy00.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationStudy00.cpp; sourceTree = "<group>"; };
+		90C4320E1CA15CA0004A951F /* LayerAnimationStudy00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationStudy00.h; sourceTree = "<group>"; };
+		90C432111CA15EB8004A951F /* LayerAnimationStudy01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationStudy01.cpp; sourceTree = "<group>"; };
+		90C432121CA15EB8004A951F /* LayerAnimationStudy01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationStudy01.h; sourceTree = "<group>"; };
+		90C432141CA160C7004A951F /* LayerAnimationStudy02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationStudy02.cpp; sourceTree = "<group>"; };
+		90C432151CA160C7004A951F /* LayerAnimationStudy02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationStudy02.h; sourceTree = "<group>"; };
+		90C432171CA16248004A951F /* LayerAnimationStudy03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationStudy03.cpp; sourceTree = "<group>"; };
+		90C432181CA16248004A951F /* LayerAnimationStudy03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationStudy03.h; sourceTree = "<group>"; };
+		90C4321A1CA164CF004A951F /* LayerAnimationStudy04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationStudy04.cpp; sourceTree = "<group>"; };
+		90C4321B1CA164CF004A951F /* LayerAnimationStudy04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationStudy04.h; sourceTree = "<group>"; };
 		90FAEE411CA0F1DB00B7E924 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../../../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -264,10 +284,8 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				90C431FE1CA143C8004A951F /* particle_study */,
-				90C431FD1CA143AF004A951F /* shader_study */,
+				90C4320B1CA14A11004A951F /* common */,
 				90C431FC1CA143A5004A951F /* animation_study */,
-				90C431CA1CA119A7004A951F /* common */,
 				90C431CB1CA119A7004A951F /* scene_base */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
@@ -323,13 +341,6 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
-		90C431CA1CA119A7004A951F /* common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = common;
-			sourceTree = "<group>";
-		};
 		90C431CB1CA119A7004A951F /* scene_base */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,22 +367,37 @@
 		90C431FC1CA143A5004A951F /* animation_study */ = {
 			isa = PBXGroup;
 			children = (
+				90C432101CA15D7C004A951F /* finish */,
+				90C432071CA14809004A951F /* animation_study.h */,
+				90C432081CA148A0004A951F /* LayerAnimationStudyUI.cpp */,
+				90C432091CA148A0004A951F /* LayerAnimationStudyUI.h */,
 			);
 			path = animation_study;
 			sourceTree = "<group>";
 		};
-		90C431FD1CA143AF004A951F /* shader_study */ = {
+		90C4320B1CA14A11004A951F /* common */ = {
 			isa = PBXGroup;
 			children = (
+				90C4320C1CA14A40004A951F /* MacroDefine.h */,
 			);
-			path = shader_study;
+			path = common;
 			sourceTree = "<group>";
 		};
-		90C431FE1CA143C8004A951F /* particle_study */ = {
+		90C432101CA15D7C004A951F /* finish */ = {
 			isa = PBXGroup;
 			children = (
+				90C4320D1CA15CA0004A951F /* LayerAnimationStudy00.cpp */,
+				90C4320E1CA15CA0004A951F /* LayerAnimationStudy00.h */,
+				90C432111CA15EB8004A951F /* LayerAnimationStudy01.cpp */,
+				90C432121CA15EB8004A951F /* LayerAnimationStudy01.h */,
+				90C432141CA160C7004A951F /* LayerAnimationStudy02.cpp */,
+				90C432151CA160C7004A951F /* LayerAnimationStudy02.h */,
+				90C432171CA16248004A951F /* LayerAnimationStudy03.cpp */,
+				90C432181CA16248004A951F /* LayerAnimationStudy03.h */,
+				90C4321A1CA164CF004A951F /* LayerAnimationStudy04.cpp */,
+				90C4321B1CA164CF004A951F /* LayerAnimationStudy04.h */,
 			);
-			path = particle_study;
+			name = finish;
 			sourceTree = "<group>";
 		};
 		90FAEE421CA0F1DB00B7E924 /* Products */ = {
@@ -426,7 +452,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SharpEffect" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -517,10 +543,16 @@
 				90C431D71CA120C2004A951F /* SceneMain.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				90C431E01CA12CF3004A951F /* FunctionBackLayer.cpp in Sources */,
+				90C4320F1CA15CA0004A951F /* LayerAnimationStudy00.cpp in Sources */,
+				90C4321C1CA164CF004A951F /* LayerAnimationStudy04.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				90C431D11CA11B64004A951F /* BaseBackLayer.cpp in Sources */,
+				90C432161CA160C7004A951F /* LayerAnimationStudy02.cpp in Sources */,
+				90C4320A1CA148A0004A951F /* LayerAnimationStudyUI.cpp in Sources */,
+				90C432191CA16248004A951F /* LayerAnimationStudy03.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				90C431D41CA11E71004A951F /* BaseDataListLayer.cpp in Sources */,
+				90C432131CA15EB8004A951F /* LayerAnimationStudy01.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,6 +600,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.sharp;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
@@ -604,6 +637,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.sharp;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
@@ -615,9 +649,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -640,6 +674,7 @@
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.sharp;
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
 			};
 			name = Debug;
@@ -648,9 +683,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
@@ -671,6 +706,7 @@
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.sharp;
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
 			};
 			name = Release;
@@ -681,6 +717,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;

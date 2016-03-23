@@ -8,6 +8,7 @@
 
 #include "SceneMain.h"
 #include "FunctionBackLayer.h"
+#include "LayerAnimationStudyUI.h"
 
 using namespace std;
 USING_NS_CC;
@@ -34,7 +35,7 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
     
     switch (selIndex) {
         case 0:
-            
+            pLyrTest = LayerAnimationStudyUI::create();
             break;
         default:
             break;
