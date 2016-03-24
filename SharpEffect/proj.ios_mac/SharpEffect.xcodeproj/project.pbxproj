@@ -72,6 +72,15 @@
 		90FB66771CA3654800734AFC /* LayerShaderStudyUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66751CA3654800734AFC /* LayerShaderStudyUI.cpp */; };
 		90FB667C1CA365FC00734AFC /* LayerShaderStudy00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB667A1CA365FC00734AFC /* LayerShaderStudy00.cpp */; };
 		90FB667F1CA3679500734AFC /* LayerAnimationPractice00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB667D1CA3679500734AFC /* LayerAnimationPractice00.cpp */; };
+		90FB66861CA377F800734AFC /* LayerShaderStudy01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66841CA377F800734AFC /* LayerShaderStudy01.cpp */; };
+		90FB66891CA378EE00734AFC /* LayerShaderStudy02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66871CA378EE00734AFC /* LayerShaderStudy02.cpp */; };
+		90FB668C1CA379D800734AFC /* LayerShaderStudy03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB668A1CA379D800734AFC /* LayerShaderStudy03.cpp */; };
+		90FB668F1CA37C7500734AFC /* LayerShaderStudy04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB668D1CA37C7500734AFC /* LayerShaderStudy04.cpp */; };
+		90FB66921CA37E9700734AFC /* LayerShaderStudy05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66901CA37E9700734AFC /* LayerShaderStudy05.cpp */; };
+		90FB66951CA380CC00734AFC /* LayerShaderStudy06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66931CA380CC00734AFC /* LayerShaderStudy06.cpp */; };
+		90FB66981CA381B400734AFC /* LayerShaderStudy07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66961CA381B400734AFC /* LayerShaderStudy07.cpp */; };
+		90FB66A11CA3843100734AFC /* LayerShaderPracticeUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB669F1CA3843100734AFC /* LayerShaderPracticeUI.cpp */; };
+		90FB66A51CA384AB00734AFC /* LayerShaderPractice00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66A31CA384AB00734AFC /* LayerShaderPractice00.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -197,6 +206,25 @@
 		90FB667B1CA365FC00734AFC /* LayerShaderStudy00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy00.h; sourceTree = "<group>"; };
 		90FB667D1CA3679500734AFC /* LayerAnimationPractice00.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationPractice00.cpp; sourceTree = "<group>"; };
 		90FB667E1CA3679500734AFC /* LayerAnimationPractice00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationPractice00.h; sourceTree = "<group>"; };
+		90FB66841CA377F800734AFC /* LayerShaderStudy01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderStudy01.cpp; sourceTree = "<group>"; };
+		90FB66851CA377F800734AFC /* LayerShaderStudy01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy01.h; sourceTree = "<group>"; };
+		90FB66871CA378EE00734AFC /* LayerShaderStudy02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderStudy02.cpp; sourceTree = "<group>"; };
+		90FB66881CA378EE00734AFC /* LayerShaderStudy02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy02.h; sourceTree = "<group>"; };
+		90FB668A1CA379D800734AFC /* LayerShaderStudy03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderStudy03.cpp; sourceTree = "<group>"; };
+		90FB668B1CA379D800734AFC /* LayerShaderStudy03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy03.h; sourceTree = "<group>"; };
+		90FB668D1CA37C7500734AFC /* LayerShaderStudy04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderStudy04.cpp; sourceTree = "<group>"; };
+		90FB668E1CA37C7500734AFC /* LayerShaderStudy04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy04.h; sourceTree = "<group>"; };
+		90FB66901CA37E9700734AFC /* LayerShaderStudy05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderStudy05.cpp; sourceTree = "<group>"; };
+		90FB66911CA37E9700734AFC /* LayerShaderStudy05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy05.h; sourceTree = "<group>"; };
+		90FB66931CA380CC00734AFC /* LayerShaderStudy06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderStudy06.cpp; sourceTree = "<group>"; };
+		90FB66941CA380CC00734AFC /* LayerShaderStudy06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy06.h; sourceTree = "<group>"; };
+		90FB66961CA381B400734AFC /* LayerShaderStudy07.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderStudy07.cpp; sourceTree = "<group>"; };
+		90FB66971CA381B400734AFC /* LayerShaderStudy07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy07.h; sourceTree = "<group>"; };
+		90FB669E1CA3841D00734AFC /* shader_practice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader_practice.h; sourceTree = "<group>"; };
+		90FB669F1CA3843100734AFC /* LayerShaderPracticeUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPracticeUI.cpp; sourceTree = "<group>"; };
+		90FB66A01CA3843100734AFC /* LayerShaderPracticeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPracticeUI.h; sourceTree = "<group>"; };
+		90FB66A31CA384AB00734AFC /* LayerShaderPractice00.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPractice00.cpp; sourceTree = "<group>"; };
+		90FB66A41CA384AB00734AFC /* LayerShaderPractice00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPractice00.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -326,9 +354,10 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				90FB669D1CA383FB00734AFC /* shader_practice */,
+				90FB666F1CA364DC00734AFC /* shader_study */,
 				90FB666E1CA364DC00734AFC /* animation_practice */,
 				90C431FC1CA143A5004A951F /* animation_study */,
-				90FB666F1CA364DC00734AFC /* shader_study */,
 				90FB66631CA361B900734AFC /* particle_study */,
 				90C4320B1CA14A11004A951F /* common */,
 				90C431CB1CA119A7004A951F /* scene_base */,
@@ -524,6 +553,40 @@
 			children = (
 				90FB667A1CA365FC00734AFC /* LayerShaderStudy00.cpp */,
 				90FB667B1CA365FC00734AFC /* LayerShaderStudy00.h */,
+				90FB66841CA377F800734AFC /* LayerShaderStudy01.cpp */,
+				90FB66851CA377F800734AFC /* LayerShaderStudy01.h */,
+				90FB66871CA378EE00734AFC /* LayerShaderStudy02.cpp */,
+				90FB66881CA378EE00734AFC /* LayerShaderStudy02.h */,
+				90FB668A1CA379D800734AFC /* LayerShaderStudy03.cpp */,
+				90FB668B1CA379D800734AFC /* LayerShaderStudy03.h */,
+				90FB668D1CA37C7500734AFC /* LayerShaderStudy04.cpp */,
+				90FB668E1CA37C7500734AFC /* LayerShaderStudy04.h */,
+				90FB66901CA37E9700734AFC /* LayerShaderStudy05.cpp */,
+				90FB66911CA37E9700734AFC /* LayerShaderStudy05.h */,
+				90FB66931CA380CC00734AFC /* LayerShaderStudy06.cpp */,
+				90FB66941CA380CC00734AFC /* LayerShaderStudy06.h */,
+				90FB66961CA381B400734AFC /* LayerShaderStudy07.cpp */,
+				90FB66971CA381B400734AFC /* LayerShaderStudy07.h */,
+			);
+			name = finish;
+			sourceTree = "<group>";
+		};
+		90FB669D1CA383FB00734AFC /* shader_practice */ = {
+			isa = PBXGroup;
+			children = (
+				90FB66A21CA3849C00734AFC /* finish */,
+				90FB669E1CA3841D00734AFC /* shader_practice.h */,
+				90FB669F1CA3843100734AFC /* LayerShaderPracticeUI.cpp */,
+				90FB66A01CA3843100734AFC /* LayerShaderPracticeUI.h */,
+			);
+			path = shader_practice;
+			sourceTree = "<group>";
+		};
+		90FB66A21CA3849C00734AFC /* finish */ = {
+			isa = PBXGroup;
+			children = (
+				90FB66A31CA384AB00734AFC /* LayerShaderPractice00.cpp */,
+				90FB66A41CA384AB00734AFC /* LayerShaderPractice00.h */,
 			);
 			name = finish;
 			sourceTree = "<group>";
@@ -660,26 +723,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				90FB667C1CA365FC00734AFC /* LayerShaderStudy00.cpp in Sources */,
+				90FB66A11CA3843100734AFC /* LayerShaderPracticeUI.cpp in Sources */,
 				902356CE1CA2A0CA0041BAF0 /* LayerAnimationStudy05.cpp in Sources */,
 				90C431D71CA120C2004A951F /* SceneMain.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				90C431E01CA12CF3004A951F /* FunctionBackLayer.cpp in Sources */,
+				90FB668C1CA379D800734AFC /* LayerShaderStudy03.cpp in Sources */,
+				90FB66891CA378EE00734AFC /* LayerShaderStudy02.cpp in Sources */,
 				90FB667F1CA3679500734AFC /* LayerAnimationPractice00.cpp in Sources */,
 				90C4320F1CA15CA0004A951F /* LayerAnimationStudy00.cpp in Sources */,
 				90FB66771CA3654800734AFC /* LayerShaderStudyUI.cpp in Sources */,
 				902356DF1CA2B5BB0041BAF0 /* LayerAnimationStudy10.cpp in Sources */,
 				902356D61CA2B1300041BAF0 /* LayerAnimationStudy07.cpp in Sources */,
 				902356D91CA2B2680041BAF0 /* LayerAnimationStudy08.cpp in Sources */,
+				90FB66981CA381B400734AFC /* LayerShaderStudy07.cpp in Sources */,
 				90C4321C1CA164CF004A951F /* LayerAnimationStudy04.cpp in Sources */,
 				90FB66691CA361ED00734AFC /* LayerParticleStudyUI.cpp in Sources */,
+				90FB66861CA377F800734AFC /* LayerShaderStudy01.cpp in Sources */,
+				90FB668F1CA37C7500734AFC /* LayerShaderStudy04.cpp in Sources */,
 				902356D31CA2AFF60041BAF0 /* LayerAnimationStudy06.cpp in Sources */,
 				90FB66721CA3650F00734AFC /* LayerAnimationPracticeUI.cpp in Sources */,
 				902356DC1CA2B4D10041BAF0 /* LayerAnimationStudy09.cpp in Sources */,
 				90FB666D1CA3629A00734AFC /* LayerParticleStudy00.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				902356E21CA2B7CB0041BAF0 /* LayerAnimationStudy11.cpp in Sources */,
+				90FB66951CA380CC00734AFC /* LayerShaderStudy06.cpp in Sources */,
 				90C431D11CA11B64004A951F /* BaseBackLayer.cpp in Sources */,
 				90C432161CA160C7004A951F /* LayerAnimationStudy02.cpp in Sources */,
+				90FB66921CA37E9700734AFC /* LayerShaderStudy05.cpp in Sources */,
+				90FB66A51CA384AB00734AFC /* LayerShaderPractice00.cpp in Sources */,
 				90C4320A1CA148A0004A951F /* LayerAnimationStudyUI.cpp in Sources */,
 				90C432191CA16248004A951F /* LayerAnimationStudy03.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,

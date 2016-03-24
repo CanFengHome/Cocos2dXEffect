@@ -20,7 +20,14 @@ void LayerShaderStudyUI::initFunNames()
     m_arrFunName.clear();
     
     m_arrFunName.push_back("00 shader first triangle");
-    
+    m_arrFunName.push_back("01 shader define");
+    m_arrFunName.push_back("02 shader VAO/VBO");
+    m_arrFunName.push_back("03 define shader 颜色float类型");
+    m_arrFunName.push_back("04 define shader 颜色Byte类型");
+    m_arrFunName.push_back("05 shader uniform");
+    m_arrFunName.push_back("06 shader quad");
+    m_arrFunName.push_back("07 shader quad vbo index");
+
     
 }
 
@@ -31,6 +38,15 @@ void LayerShaderStudyUI::clickFunIndex(ssize_t selIndex)
     
     switch (selIndex) {
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderStudy, 00);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderStudy, 01);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderStudy, 02);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderStudy, 03);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderStudy, 04);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderStudy, 05);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderStudy, 06);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderStudy, 07);
+            
+
 
         case 8:
             break;

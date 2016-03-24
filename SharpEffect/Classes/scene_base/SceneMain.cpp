@@ -8,10 +8,14 @@
 
 #include "SceneMain.h"
 #include "FunctionBackLayer.h"
+
 #include "LayerAnimationStudyUI.h"
 #include "LayerShaderStudyUI.h"
 #include "LayerParticleStudyUI.h"
+
 #include "LayerAnimationPracticeUI.h"
+#include "LayerShaderPracticeUI.h"
+
 
 using namespace std;
 USING_NS_CC;
@@ -45,6 +49,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
             break;
         case 2:
             pLyrTest = LayerShaderStudyUI::create();
+            break;
+        case 3:
+            pLyrTest = LayerShaderPracticeUI::create();
             break;
         case 4:
             pLyrTest = LayerParticleStudyUI::create();
