@@ -28,11 +28,10 @@ protected: \
     } \
 };
 
-#define CREATE_TEST_LAYER_FUNC(__OUT_LAYER__,__LAYER_INDEX__) \
+#define CREATE_TEST_LAYER_FUNC(__OUT_LAYER__,__LAYER_Type_,__LAYER_INDEX__) \
 case __LAYER_INDEX__: \
-__OUT_LAYER__ = LayerAnimationStudy##__LAYER_INDEX__::create(); \
+__OUT_LAYER__ = __LAYER_Type_##__LAYER_INDEX__::create(); \
 break;
-
 
 
 

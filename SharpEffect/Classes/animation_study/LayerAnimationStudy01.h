@@ -9,6 +9,8 @@
 #ifndef LayerAnimationStudy01_h
 #define LayerAnimationStudy01_h
 
+#include "cocos2d.h"
+
 // 01 SkewTo
 class LayerAnimationStudy01 : public cocos2d::LayerColor
 {

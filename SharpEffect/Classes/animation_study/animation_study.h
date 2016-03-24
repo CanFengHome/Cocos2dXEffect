@@ -24,7 +24,52 @@
 // 04 Bezier
 #include "LayerAnimationStudy04.h"
 
+// 05 Blink
+#include "LayerAnimationStudy05.h"
+
+// 06 Fade
+#include "LayerAnimationStudy06.h"
+
+// 07 Tint
+#include "LayerAnimationStudy07.h"
+
+// 08 Plist Animation
+#include "LayerAnimationStudy08.h"
+
+// 09 TargetAction
+#include "LayerAnimationStudy09.h"
+
+// 10 CatmullRomTo 固定张力曲线
+#include "LayerAnimationStudy10.h"
+
+// 11 CardinalSpline 可变张力曲线
+#include "LayerAnimationStudy11.h"
+
+
+
 #endif /* animation_study_h */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -9,6 +9,8 @@
 #ifndef LayerAnimationStudy00_h
 #define LayerAnimationStudy00_h
 
+#include "cocos2d.h"
+
 // 00 MoveTo3D
 class LayerAnimationStudy00 : public cocos2d::LayerColor
 {
