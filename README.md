@@ -5,3 +5,8 @@ cocos2d-x版本：V3.10 <br>
 1.Action相关类的使用，包括帧动画 骨骼动画 <br>
 2.粒子系统 <br>
 3.Shader <br>
+
+        参考资料：
+        1.md文件编写模板
+        https://github.com/guodongxiaren/README
+        
