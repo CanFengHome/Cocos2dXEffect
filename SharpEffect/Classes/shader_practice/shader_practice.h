@@ -27,7 +27,21 @@
 // 05 shader darw circle
 #include "LayerShaderPractice05.h"
 
-
+// 06 心形跳动 http://blog.csdn.net/stalendp/article/details/22221597
+#include "LayerShaderPractice06.h"
 
 
 #endif /* shader_practice_h */
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -64,6 +64,8 @@
 		9090AC521CA8BF290075D530 /* LayerShaderPractice04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9090AC501CA8BF290075D530 /* LayerShaderPractice04.cpp */; };
 		9090AC6B1CA91D0E0075D530 /* LayerShaderPractice05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9090AC691CA91D0E0075D530 /* LayerShaderPractice05.cpp */; };
 		9090AC701CA91D460075D530 /* ShaderCircleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9090AC6E1CA91D460075D530 /* ShaderCircleNode.cpp */; };
+		9090AC761CA923560075D530 /* LayerShaderPractice06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9090AC741CA923560075D530 /* LayerShaderPractice06.cpp */; };
+		9090AC791CA9239B0075D530 /* ShaderHeartNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9090AC771CA9239B0075D530 /* ShaderHeartNode.cpp */; };
 		90C431C91CA0F6AF004A951F /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FAEE491CA0F1DC00B7E924 /* libcocos2d iOS.a */; };
 		90C431D11CA11B64004A951F /* BaseBackLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C431CF1CA11B64004A951F /* BaseBackLayer.cpp */; };
 		90C431D41CA11E71004A951F /* BaseDataListLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C431D21CA11E71004A951F /* BaseDataListLayer.cpp */; };
@@ -195,6 +197,10 @@
 		9090AC6A1CA91D0E0075D530 /* LayerShaderPractice05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPractice05.h; sourceTree = "<group>"; };
 		9090AC6E1CA91D460075D530 /* ShaderCircleNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderCircleNode.cpp; sourceTree = "<group>"; };
 		9090AC6F1CA91D460075D530 /* ShaderCircleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderCircleNode.h; sourceTree = "<group>"; };
+		9090AC741CA923560075D530 /* LayerShaderPractice06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPractice06.cpp; sourceTree = "<group>"; };
+		9090AC751CA923560075D530 /* LayerShaderPractice06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPractice06.h; sourceTree = "<group>"; };
+		9090AC771CA9239B0075D530 /* ShaderHeartNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderHeartNode.cpp; sourceTree = "<group>"; };
+		9090AC781CA9239B0075D530 /* ShaderHeartNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderHeartNode.h; sourceTree = "<group>"; };
 		90C431CF1CA11B64004A951F /* BaseBackLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseBackLayer.cpp; sourceTree = "<group>"; };
 		90C431D01CA11B64004A951F /* BaseBackLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBackLayer.h; sourceTree = "<group>"; };
 		90C431D21CA11E71004A951F /* BaseDataListLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseDataListLayer.cpp; sourceTree = "<group>"; };
@@ -454,6 +460,8 @@
 		9090AC4C1CA8BF0C0075D530 /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				9090AC771CA9239B0075D530 /* ShaderHeartNode.cpp */,
+				9090AC781CA9239B0075D530 /* ShaderHeartNode.h */,
 				9090AC6E1CA91D460075D530 /* ShaderCircleNode.cpp */,
 				9090AC6F1CA91D460075D530 /* ShaderCircleNode.h */,
 				9090AC4D1CA8BF0C0075D530 /* ShaderDemoNode.cpp */,
@@ -648,6 +656,8 @@
 				9090AC511CA8BF290075D530 /* LayerShaderPractice04.h */,
 				9090AC691CA91D0E0075D530 /* LayerShaderPractice05.cpp */,
 				9090AC6A1CA91D0E0075D530 /* LayerShaderPractice05.h */,
+				9090AC741CA923560075D530 /* LayerShaderPractice06.cpp */,
+				9090AC751CA923560075D530 /* LayerShaderPractice06.h */,
 			);
 			name = finish;
 			sourceTree = "<group>";
@@ -784,6 +794,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90FB667C1CA365FC00734AFC /* LayerShaderStudy00.cpp in Sources */,
+				9090AC761CA923560075D530 /* LayerShaderPractice06.cpp in Sources */,
 				90FB66A11CA3843100734AFC /* LayerShaderPracticeUI.cpp in Sources */,
 				902356CE1CA2A0CA0041BAF0 /* LayerAnimationStudy05.cpp in Sources */,
 				90C431D71CA120C2004A951F /* SceneMain.cpp in Sources */,
@@ -824,6 +835,7 @@
 				9090AC451CA8BB1C0075D530 /* ActionShake.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				90C431D41CA11E71004A951F /* BaseDataListLayer.cpp in Sources */,
+				9090AC791CA9239B0075D530 /* ShaderHeartNode.cpp in Sources */,
 				90C432131CA15EB8004A951F /* LayerAnimationStudy01.cpp in Sources */,
 				9090AC4F1CA8BF0C0075D530 /* ShaderDemoNode.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
