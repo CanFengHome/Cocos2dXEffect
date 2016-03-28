@@ -24,6 +24,8 @@
 // 04 标准Shader 演示在Node中自定义渲染shade
 #include "LayerShaderPractice04.h"
 
+// 05 shader darw circle
+#include "LayerShaderPractice05.h"
 
 
 

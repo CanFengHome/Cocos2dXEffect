@@ -24,7 +24,8 @@ void LayerShaderPracticeUI::initFunNames()
     m_arrFunName.push_back("02 灯光光晕效果 Blend使用");
     m_arrFunName.push_back("03 闪电效果");
     m_arrFunName.push_back("04 标准Shader Node中自定义渲染shade");
-    
+    m_arrFunName.push_back("05 shader darw circle");
+
     
 }
 
@@ -39,7 +40,7 @@ void LayerShaderPracticeUI::clickFunIndex(ssize_t selIndex)
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 02);
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 03);
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 04);
-            
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 05);
 
             
         case 8:
