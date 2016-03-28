@@ -20,7 +20,7 @@ void LayerAnimationPracticeUI::initFunNames()
     m_arrFunName.clear();
     
     m_arrFunName.push_back("00 气泡抖动");
-    
+    m_arrFunName.push_back("01 抖动动画");
     
 }
 
@@ -31,6 +31,8 @@ void LayerAnimationPracticeUI::clickFunIndex(ssize_t selIndex)
     
     switch (selIndex) {
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerAnimationPractice, 00);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerAnimationPractice, 01);
+            
 
         case 8:
             break;

@@ -20,7 +20,12 @@ void LayerShaderPracticeUI::initFunNames()
     m_arrFunName.clear();
     
     m_arrFunName.push_back("00 角色中毒");
-
+    m_arrFunName.push_back("01 冰冻效果");
+    m_arrFunName.push_back("02 灯光光晕效果 Blend使用");
+    m_arrFunName.push_back("03 闪电效果");
+    m_arrFunName.push_back("04 标准Shader Node中自定义渲染shade");
+    
+    
 }
 
 void LayerShaderPracticeUI::clickFunIndex(ssize_t selIndex)
@@ -30,9 +35,12 @@ void LayerShaderPracticeUI::clickFunIndex(ssize_t selIndex)
     
     switch (selIndex) {
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 00);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 01);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 02);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 03);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 04);
+            
 
-            
-            
             
         case 8:
             break;

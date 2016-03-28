@@ -11,8 +11,8 @@
 
 // 00 气泡抖动
 #include "LayerAnimationPractice00.h"
-
-
+// 01 抖动动画 参考资料：http://blog.csdn.net/wonengxing/article/details/42076407
+#include "LayerAnimationPractice01.h"
 
 
 
