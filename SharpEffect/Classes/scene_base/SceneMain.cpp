@@ -16,6 +16,7 @@
 #include "LayerAnimationPracticeUI.h"
 #include "LayerShaderPracticeUI.h"
 
+#include "LayerExperimentUI.h"
 
 using namespace std;
 USING_NS_CC;
@@ -33,6 +34,7 @@ void LayerMainDataList::initFunNames()
     m_arrFunName.push_back("03 Shader实践");
     m_arrFunName.push_back("04 粒子学习");
     m_arrFunName.push_back("05 粒子实践");
+    m_arrFunName.push_back("06 实验");
 }
 
 void LayerMainDataList::clickFunIndex(ssize_t selIndex)
@@ -55,6 +57,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
             break;
         case 4:
             pLyrTest = LayerParticleStudyUI::create();
+            break;
+        case 6:
+            pLyrTest = LayerExperimentUI::create();
             break;
         default:
             break;

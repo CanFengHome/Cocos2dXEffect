@@ -16,9 +16,6 @@
 
 
 
-
-
-
 #endif /* particle_study_h */
 
 

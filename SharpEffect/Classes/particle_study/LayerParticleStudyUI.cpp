@@ -22,7 +22,6 @@ void LayerParticleStudyUI::initFunNames()
     
     m_arrFunName.push_back("00 Paticle plist load");
     
-    
 }
 
 void LayerParticleStudyUI::clickFunIndex(ssize_t selIndex)
@@ -32,6 +31,7 @@ void LayerParticleStudyUI::clickFunIndex(ssize_t selIndex)
     
     switch (selIndex) {
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerParticleStudy, 00);
+            
             
         case 8:
             break;

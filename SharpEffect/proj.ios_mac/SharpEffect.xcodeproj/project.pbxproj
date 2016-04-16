@@ -56,6 +56,17 @@
 		902356DF1CA2B5BB0041BAF0 /* LayerAnimationStudy10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 902356DD1CA2B5BB0041BAF0 /* LayerAnimationStudy10.cpp */; };
 		902356E21CA2B7CB0041BAF0 /* LayerAnimationStudy11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 902356E01CA2B7CB0041BAF0 /* LayerAnimationStudy11.cpp */; };
 		903085BD1CC1FE6C001A56DF /* ShaderClipingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085BB1CC1FE6C001A56DF /* ShaderClipingNode.cpp */; };
+		903085C81CC207FE001A56DF /* 00Particle学习笔记.docx in Resources */ = {isa = PBXBuildFile; fileRef = 903085C61CC207FE001A56DF /* 00Particle学习笔记.docx */; };
+		903085D21CC20C32001A56DF /* LayerExperimentUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085D01CC20C32001A56DF /* LayerExperimentUI.cpp */; };
+		903085E01CC20E2F001A56DF /* LayerExperiment00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085DE1CC20E2F001A56DF /* LayerExperiment00.cpp */; };
+		903085E31CC20E5A001A56DF /* WaterBottleClipingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085E11CC20E5A001A56DF /* WaterBottleClipingNode.cpp */; };
+		903085F31CC20F29001A56DF /* 00Experiment笔记.docx in Resources */ = {isa = PBXBuildFile; fileRef = 903085F21CC20F29001A56DF /* 00Experiment笔记.docx */; };
+		903085F61CC21147001A56DF /* RenderTextureClippingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085F41CC21146001A56DF /* RenderTextureClippingNode.cpp */; };
+		903085F91CC211DD001A56DF /* LayerExperiment01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085F71CC211DD001A56DF /* LayerExperiment01.cpp */; };
+		903085FC1CC213DF001A56DF /* AllRenderTextureClippingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085FA1CC213DF001A56DF /* AllRenderTextureClippingNode.cpp */; };
+		903085FF1CC2153F001A56DF /* LayerExperiment02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085FD1CC2153F001A56DF /* LayerExperiment02.cpp */; };
+		903086021CC21740001A56DF /* AllRenderTextureBatchClippingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903086001CC21740001A56DF /* AllRenderTextureBatchClippingNode.cpp */; };
+		903086051CC218B0001A56DF /* LayerExperiment03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903086031CC218B0001A56DF /* LayerExperiment03.cpp */; };
 		9044DF2B1CC0D31E00CC9BFC /* 00Shader实践笔记.docx in Resources */ = {isa = PBXBuildFile; fileRef = 9044DF121CC0D31E00CC9BFC /* 00Shader实践笔记.docx */; };
 		9044DF2C1CC0D31E00CC9BFC /* ShaderCircleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF141CC0D31E00CC9BFC /* ShaderCircleNode.cpp */; };
 		9044DF2D1CC0D31E00CC9BFC /* ShaderDemoNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF161CC0D31E00CC9BFC /* ShaderDemoNode.cpp */; };
@@ -184,6 +195,27 @@
 		902356E11CA2B7CB0041BAF0 /* LayerAnimationStudy11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationStudy11.h; sourceTree = "<group>"; };
 		903085BB1CC1FE6C001A56DF /* ShaderClipingNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderClipingNode.cpp; sourceTree = "<group>"; };
 		903085BC1CC1FE6C001A56DF /* ShaderClipingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderClipingNode.h; sourceTree = "<group>"; };
+		903085C61CC207FE001A56DF /* 00Particle学习笔记.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00Particle学习笔记.docx"; sourceTree = "<group>"; };
+		903085D01CC20C32001A56DF /* LayerExperimentUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerExperimentUI.cpp; sourceTree = "<group>"; };
+		903085D11CC20C32001A56DF /* LayerExperimentUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerExperimentUI.h; sourceTree = "<group>"; };
+		903085D41CC20C8B001A56DF /* experiment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = experiment.h; sourceTree = "<group>"; };
+		903085DE1CC20E2F001A56DF /* LayerExperiment00.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerExperiment00.cpp; sourceTree = "<group>"; };
+		903085DF1CC20E2F001A56DF /* LayerExperiment00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerExperiment00.h; sourceTree = "<group>"; };
+		903085E11CC20E5A001A56DF /* WaterBottleClipingNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterBottleClipingNode.cpp; sourceTree = "<group>"; };
+		903085E21CC20E5A001A56DF /* WaterBottleClipingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterBottleClipingNode.h; sourceTree = "<group>"; };
+		903085F21CC20F29001A56DF /* 00Experiment笔记.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00Experiment笔记.docx"; sourceTree = "<group>"; };
+		903085F41CC21146001A56DF /* RenderTextureClippingNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderTextureClippingNode.cpp; sourceTree = "<group>"; };
+		903085F51CC21146001A56DF /* RenderTextureClippingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderTextureClippingNode.h; sourceTree = "<group>"; };
+		903085F71CC211DD001A56DF /* LayerExperiment01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerExperiment01.cpp; sourceTree = "<group>"; };
+		903085F81CC211DD001A56DF /* LayerExperiment01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerExperiment01.h; sourceTree = "<group>"; };
+		903085FA1CC213DF001A56DF /* AllRenderTextureClippingNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AllRenderTextureClippingNode.cpp; sourceTree = "<group>"; };
+		903085FB1CC213DF001A56DF /* AllRenderTextureClippingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRenderTextureClippingNode.h; sourceTree = "<group>"; };
+		903085FD1CC2153F001A56DF /* LayerExperiment02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerExperiment02.cpp; sourceTree = "<group>"; };
+		903085FE1CC2153F001A56DF /* LayerExperiment02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerExperiment02.h; sourceTree = "<group>"; };
+		903086001CC21740001A56DF /* AllRenderTextureBatchClippingNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AllRenderTextureBatchClippingNode.cpp; sourceTree = "<group>"; };
+		903086011CC21740001A56DF /* AllRenderTextureBatchClippingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRenderTextureBatchClippingNode.h; sourceTree = "<group>"; };
+		903086031CC218B0001A56DF /* LayerExperiment03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerExperiment03.cpp; sourceTree = "<group>"; };
+		903086041CC218B0001A56DF /* LayerExperiment03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerExperiment03.h; sourceTree = "<group>"; };
 		9044DF121CC0D31E00CC9BFC /* 00Shader实践笔记.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00Shader实践笔记.docx"; sourceTree = "<group>"; };
 		9044DF141CC0D31E00CC9BFC /* ShaderCircleNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderCircleNode.cpp; sourceTree = "<group>"; };
 		9044DF151CC0D31E00CC9BFC /* ShaderCircleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderCircleNode.h; sourceTree = "<group>"; };
@@ -395,6 +427,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				903085CC1CC20A8D001A56DF /* experiment */,
 				90FB669D1CA383FB00734AFC /* shader_practice */,
 				90FB666F1CA364DC00734AFC /* shader_study */,
 				90FB666E1CA364DC00734AFC /* animation_practice */,
@@ -455,6 +488,56 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		903085C71CC207FE001A56DF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		903085CC1CC20A8D001A56DF /* experiment */ = {
+			isa = PBXGroup;
+			children = (
+				903085DD1CC20E1F001A56DF /* finish */,
+				903085D01CC20C32001A56DF /* LayerExperimentUI.cpp */,
+				903085D11CC20C32001A56DF /* LayerExperimentUI.h */,
+				903085D41CC20C8B001A56DF /* experiment.h */,
+			);
+			path = experiment;
+			sourceTree = "<group>";
+		};
+		903085D31CC20C47001A56DF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				903085E11CC20E5A001A56DF /* WaterBottleClipingNode.cpp */,
+				903085E21CC20E5A001A56DF /* WaterBottleClipingNode.h */,
+				903085F41CC21146001A56DF /* RenderTextureClippingNode.cpp */,
+				903085F51CC21146001A56DF /* RenderTextureClippingNode.h */,
+				903085FA1CC213DF001A56DF /* AllRenderTextureClippingNode.cpp */,
+				903085FB1CC213DF001A56DF /* AllRenderTextureClippingNode.h */,
+				903086001CC21740001A56DF /* AllRenderTextureBatchClippingNode.cpp */,
+				903086011CC21740001A56DF /* AllRenderTextureBatchClippingNode.h */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		903085DD1CC20E1F001A56DF /* finish */ = {
+			isa = PBXGroup;
+			children = (
+				903085D31CC20C47001A56DF /* extension */,
+				903085F21CC20F29001A56DF /* 00Experiment笔记.docx */,
+				903085DE1CC20E2F001A56DF /* LayerExperiment00.cpp */,
+				903085DF1CC20E2F001A56DF /* LayerExperiment00.h */,
+				903085F71CC211DD001A56DF /* LayerExperiment01.cpp */,
+				903085F81CC211DD001A56DF /* LayerExperiment01.h */,
+				903085FD1CC2153F001A56DF /* LayerExperiment02.cpp */,
+				903085FE1CC2153F001A56DF /* LayerExperiment02.h */,
+				903086031CC218B0001A56DF /* LayerExperiment03.cpp */,
+				903086041CC218B0001A56DF /* LayerExperiment03.h */,
+			);
+			name = finish;
+			sourceTree = "<group>";
 		};
 		9044DF131CC0D31E00CC9BFC /* extension */ = {
 			isa = PBXGroup;
@@ -576,6 +659,8 @@
 		90FB666A1CA3628200734AFC /* finish */ = {
 			isa = PBXGroup;
 			children = (
+				903085C61CC207FE001A56DF /* 00Particle学习笔记.docx */,
+				903085C71CC207FE001A56DF /* extension */,
 				90FB666B1CA3629A00734AFC /* LayerParticleStudy00.cpp */,
 				90FB666C1CA3629A00734AFC /* LayerParticleStudy00.h */,
 			);
@@ -653,8 +738,8 @@
 		90FB66A21CA3849C00734AFC /* finish */ = {
 			isa = PBXGroup;
 			children = (
-				9044DF121CC0D31E00CC9BFC /* 00Shader实践笔记.docx */,
 				9044DF131CC0D31E00CC9BFC /* extension */,
+				9044DF121CC0D31E00CC9BFC /* 00Shader实践笔记.docx */,
 				9044DF1A1CC0D31E00CC9BFC /* LayerShaderPractice00.cpp */,
 				9044DF1B1CC0D31E00CC9BFC /* LayerShaderPractice00.h */,
 				9044DF1C1CC0D31E00CC9BFC /* LayerShaderPractice01.cpp */,
@@ -777,9 +862,11 @@
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				903085C81CC207FE001A56DF /* 00Particle学习笔记.docx in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				9044DF2B1CC0D31E00CC9BFC /* 00Shader实践笔记.docx in Resources */,
+				903085F31CC20F29001A56DF /* 00Experiment笔记.docx in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
@@ -810,11 +897,14 @@
 				90FB667C1CA365FC00734AFC /* LayerShaderStudy00.cpp in Sources */,
 				90FB66A11CA3843100734AFC /* LayerShaderPracticeUI.cpp in Sources */,
 				902356CE1CA2A0CA0041BAF0 /* LayerAnimationStudy05.cpp in Sources */,
+				903086051CC218B0001A56DF /* LayerExperiment03.cpp in Sources */,
+				903085E01CC20E2F001A56DF /* LayerExperiment00.cpp in Sources */,
 				90C431D71CA120C2004A951F /* SceneMain.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				9044DF341CC0D31E00CC9BFC /* LayerShaderPractice05.cpp in Sources */,
 				90C431E01CA12CF3004A951F /* FunctionBackLayer.cpp in Sources */,
 				90FB668C1CA379D800734AFC /* LayerShaderStudy03.cpp in Sources */,
+				903085FC1CC213DF001A56DF /* AllRenderTextureClippingNode.cpp in Sources */,
 				90FB66891CA378EE00734AFC /* LayerShaderStudy02.cpp in Sources */,
 				90FB667F1CA3679500734AFC /* LayerAnimationPractice00.cpp in Sources */,
 				90C4320F1CA15CA0004A951F /* LayerAnimationStudy00.cpp in Sources */,
@@ -831,21 +921,27 @@
 				9044DF2C1CC0D31E00CC9BFC /* ShaderCircleNode.cpp in Sources */,
 				9044DF3B1CC0D33E00CC9BFC /* LayerShaderPractice07.cpp in Sources */,
 				90FB668F1CA37C7500734AFC /* LayerShaderStudy04.cpp in Sources */,
+				903085F61CC21147001A56DF /* RenderTextureClippingNode.cpp in Sources */,
+				903085D21CC20C32001A56DF /* LayerExperimentUI.cpp in Sources */,
 				902356D31CA2AFF60041BAF0 /* LayerAnimationStudy06.cpp in Sources */,
 				90FB66721CA3650F00734AFC /* LayerAnimationPracticeUI.cpp in Sources */,
 				902356DC1CA2B4D10041BAF0 /* LayerAnimationStudy09.cpp in Sources */,
 				90FB666D1CA3629A00734AFC /* LayerParticleStudy00.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				9044DF331CC0D31E00CC9BFC /* LayerShaderPractice04.cpp in Sources */,
+				903085E31CC20E5A001A56DF /* WaterBottleClipingNode.cpp in Sources */,
+				903086021CC21740001A56DF /* AllRenderTextureBatchClippingNode.cpp in Sources */,
 				902356E21CA2B7CB0041BAF0 /* LayerAnimationStudy11.cpp in Sources */,
 				9044DF351CC0D31E00CC9BFC /* LayerShaderPractice06.cpp in Sources */,
 				90FB66951CA380CC00734AFC /* LayerShaderStudy06.cpp in Sources */,
+				903085FF1CC2153F001A56DF /* LayerExperiment02.cpp in Sources */,
 				90C431D11CA11B64004A951F /* BaseBackLayer.cpp in Sources */,
 				90C432161CA160C7004A951F /* LayerAnimationStudy02.cpp in Sources */,
 				9044DF2F1CC0D31E00CC9BFC /* LayerShaderPractice00.cpp in Sources */,
 				90FB66921CA37E9700734AFC /* LayerShaderStudy05.cpp in Sources */,
 				9090AC411CA8BAB50075D530 /* LayerAnimationPractice01.cpp in Sources */,
 				9044DF311CC0D31E00CC9BFC /* LayerShaderPractice02.cpp in Sources */,
+				903085F91CC211DD001A56DF /* LayerExperiment01.cpp in Sources */,
 				90C4320A1CA148A0004A951F /* LayerAnimationStudyUI.cpp in Sources */,
 				90C432191CA16248004A951F /* LayerAnimationStudy03.cpp in Sources */,
 				9044DF2D1CC0D31E00CC9BFC /* ShaderDemoNode.cpp in Sources */,
