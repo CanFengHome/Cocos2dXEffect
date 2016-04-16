@@ -26,7 +26,7 @@ void LayerShaderPracticeUI::initFunNames()
     m_arrFunName.push_back("04 标准Shader Node中自定义渲染shade");
     m_arrFunName.push_back("05 shader darw circle");
     m_arrFunName.push_back("06 心形跳动");
-
+    m_arrFunName.push_back("07 使用shader模拟ClippingNode功能");
     
 }
 
@@ -43,7 +43,7 @@ void LayerShaderPracticeUI::clickFunIndex(ssize_t selIndex)
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 04);
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 05);
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 06);
-            
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 07);
 
             
         case 8:

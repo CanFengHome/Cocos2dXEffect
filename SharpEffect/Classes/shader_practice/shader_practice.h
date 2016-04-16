@@ -30,6 +30,8 @@
 // 06 心形跳动 http://blog.csdn.net/stalendp/article/details/22221597
 #include "LayerShaderPractice06.h"
 
+// 07 使用shader模拟ClippingNode功能
+#include "LayerShaderPractice07.h"
 
 #endif /* shader_practice_h */
 
