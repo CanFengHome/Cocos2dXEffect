@@ -67,6 +67,8 @@
 		903085FF1CC2153F001A56DF /* LayerExperiment02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903085FD1CC2153F001A56DF /* LayerExperiment02.cpp */; };
 		903086021CC21740001A56DF /* AllRenderTextureBatchClippingNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903086001CC21740001A56DF /* AllRenderTextureBatchClippingNode.cpp */; };
 		903086051CC218B0001A56DF /* LayerExperiment03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903086031CC218B0001A56DF /* LayerExperiment03.cpp */; };
+		9038B37E1CF5538F00D0097F /* LayerAnimationPractice02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9038B37C1CF5538F00D0097F /* LayerAnimationPractice02.cpp */; };
+		9038B3831CF5544C00D0097F /* LetterActionNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9038B3811CF5544C00D0097F /* LetterActionNode.cpp */; };
 		9044DF2B1CC0D31E00CC9BFC /* 00Shader实践笔记.docx in Resources */ = {isa = PBXBuildFile; fileRef = 9044DF121CC0D31E00CC9BFC /* 00Shader实践笔记.docx */; };
 		9044DF2C1CC0D31E00CC9BFC /* ShaderCircleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF141CC0D31E00CC9BFC /* ShaderCircleNode.cpp */; };
 		9044DF2D1CC0D31E00CC9BFC /* ShaderDemoNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF161CC0D31E00CC9BFC /* ShaderDemoNode.cpp */; };
@@ -216,6 +218,10 @@
 		903086011CC21740001A56DF /* AllRenderTextureBatchClippingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRenderTextureBatchClippingNode.h; sourceTree = "<group>"; };
 		903086031CC218B0001A56DF /* LayerExperiment03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerExperiment03.cpp; sourceTree = "<group>"; };
 		903086041CC218B0001A56DF /* LayerExperiment03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerExperiment03.h; sourceTree = "<group>"; };
+		9038B37C1CF5538F00D0097F /* LayerAnimationPractice02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationPractice02.cpp; sourceTree = "<group>"; };
+		9038B37D1CF5538F00D0097F /* LayerAnimationPractice02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationPractice02.h; sourceTree = "<group>"; };
+		9038B3811CF5544C00D0097F /* LetterActionNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LetterActionNode.cpp; sourceTree = "<group>"; };
+		9038B3821CF5544C00D0097F /* LetterActionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterActionNode.h; sourceTree = "<group>"; };
 		9044DF121CC0D31E00CC9BFC /* 00Shader实践笔记.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00Shader实践笔记.docx"; sourceTree = "<group>"; };
 		9044DF141CC0D31E00CC9BFC /* ShaderCircleNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderCircleNode.cpp; sourceTree = "<group>"; };
 		9044DF151CC0D31E00CC9BFC /* ShaderCircleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderCircleNode.h; sourceTree = "<group>"; };
@@ -557,6 +563,8 @@
 		9090AC421CA8BB1C0075D530 /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				9038B3811CF5544C00D0097F /* LetterActionNode.cpp */,
+				9038B3821CF5544C00D0097F /* LetterActionNode.h */,
 				9090AC431CA8BB1C0075D530 /* ActionShake.cpp */,
 				9090AC441CA8BB1C0075D530 /* ActionShake.h */,
 			);
@@ -697,6 +705,8 @@
 				90FB667E1CA3679500734AFC /* LayerAnimationPractice00.h */,
 				9090AC3F1CA8BAB50075D530 /* LayerAnimationPractice01.cpp */,
 				9090AC401CA8BAB50075D530 /* LayerAnimationPractice01.h */,
+				9038B37C1CF5538F00D0097F /* LayerAnimationPractice02.cpp */,
+				9038B37D1CF5538F00D0097F /* LayerAnimationPractice02.h */,
 			);
 			name = finish;
 			sourceTree = "<group>";
@@ -903,6 +913,7 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				9044DF341CC0D31E00CC9BFC /* LayerShaderPractice05.cpp in Sources */,
 				90C431E01CA12CF3004A951F /* FunctionBackLayer.cpp in Sources */,
+				9038B3831CF5544C00D0097F /* LetterActionNode.cpp in Sources */,
 				90FB668C1CA379D800734AFC /* LayerShaderStudy03.cpp in Sources */,
 				903085FC1CC213DF001A56DF /* AllRenderTextureClippingNode.cpp in Sources */,
 				90FB66891CA378EE00734AFC /* LayerShaderStudy02.cpp in Sources */,
@@ -933,6 +944,7 @@
 				903086021CC21740001A56DF /* AllRenderTextureBatchClippingNode.cpp in Sources */,
 				902356E21CA2B7CB0041BAF0 /* LayerAnimationStudy11.cpp in Sources */,
 				9044DF351CC0D31E00CC9BFC /* LayerShaderPractice06.cpp in Sources */,
+				9038B37E1CF5538F00D0097F /* LayerAnimationPractice02.cpp in Sources */,
 				90FB66951CA380CC00734AFC /* LayerShaderStudy06.cpp in Sources */,
 				903085FF1CC2153F001A56DF /* LayerExperiment02.cpp in Sources */,
 				90C431D11CA11B64004A951F /* BaseBackLayer.cpp in Sources */,
