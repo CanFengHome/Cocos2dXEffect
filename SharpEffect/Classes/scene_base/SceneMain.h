@@ -10,6 +10,7 @@
 #define MainScene_h
 
 #include "BaseDataListLayer.h"
+#include "BaseBackLayer.h"
 
 class LayerMainDataList : public BaseDataListLayer
 {
@@ -27,5 +28,15 @@ public:
 private:
     virtual bool init() override;
 };
+
+class CloseBackLayer : public BaseBackLayer
+{
+public:
+    CREATE_FUNC(CloseBackLayer);
+    
+protected:
+    virtual void gotoNextScene() override;
+};
+
 
 #endif /* MainScene_h */

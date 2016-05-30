@@ -69,6 +69,8 @@
 		903086051CC218B0001A56DF /* LayerExperiment03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903086031CC218B0001A56DF /* LayerExperiment03.cpp */; };
 		9038B37E1CF5538F00D0097F /* LayerAnimationPractice02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9038B37C1CF5538F00D0097F /* LayerAnimationPractice02.cpp */; };
 		9038B3831CF5544C00D0097F /* LetterActionNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9038B3811CF5544C00D0097F /* LetterActionNode.cpp */; };
+		903DFBC41CFC3AF100A656B4 /* LayerJellyStudyUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903DFBC21CFC3AF100A656B4 /* LayerJellyStudyUI.cpp */; };
+		903DFBCF1CFC3C9200A656B4 /* LayerJellyStudy00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 903DFBCD1CFC3C9200A656B4 /* LayerJellyStudy00.cpp */; };
 		9044DF2B1CC0D31E00CC9BFC /* 00Shader实践笔记.docx in Resources */ = {isa = PBXBuildFile; fileRef = 9044DF121CC0D31E00CC9BFC /* 00Shader实践笔记.docx */; };
 		9044DF2C1CC0D31E00CC9BFC /* ShaderCircleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF141CC0D31E00CC9BFC /* ShaderCircleNode.cpp */; };
 		9044DF2D1CC0D31E00CC9BFC /* ShaderDemoNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF161CC0D31E00CC9BFC /* ShaderDemoNode.cpp */; };
@@ -222,6 +224,11 @@
 		9038B37D1CF5538F00D0097F /* LayerAnimationPractice02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationPractice02.h; sourceTree = "<group>"; };
 		9038B3811CF5544C00D0097F /* LetterActionNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LetterActionNode.cpp; sourceTree = "<group>"; };
 		9038B3821CF5544C00D0097F /* LetterActionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterActionNode.h; sourceTree = "<group>"; };
+		903DFBC11CFC3ADB00A656B4 /* jelly_study.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jelly_study.h; sourceTree = "<group>"; };
+		903DFBC21CFC3AF100A656B4 /* LayerJellyStudyUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerJellyStudyUI.cpp; sourceTree = "<group>"; };
+		903DFBC31CFC3AF100A656B4 /* LayerJellyStudyUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerJellyStudyUI.h; sourceTree = "<group>"; };
+		903DFBCD1CFC3C9200A656B4 /* LayerJellyStudy00.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerJellyStudy00.cpp; sourceTree = "<group>"; };
+		903DFBCE1CFC3C9200A656B4 /* LayerJellyStudy00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerJellyStudy00.h; sourceTree = "<group>"; };
 		9044DF121CC0D31E00CC9BFC /* 00Shader实践笔记.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00Shader实践笔记.docx"; sourceTree = "<group>"; };
 		9044DF141CC0D31E00CC9BFC /* ShaderCircleNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderCircleNode.cpp; sourceTree = "<group>"; };
 		9044DF151CC0D31E00CC9BFC /* ShaderCircleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderCircleNode.h; sourceTree = "<group>"; };
@@ -433,6 +440,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				903DFBC01CFC372A00A656B4 /* jelly_study */,
 				903085CC1CC20A8D001A56DF /* experiment */,
 				90FB669D1CA383FB00734AFC /* shader_practice */,
 				90FB666F1CA364DC00734AFC /* shader_study */,
@@ -543,6 +551,34 @@
 				903086041CC218B0001A56DF /* LayerExperiment03.h */,
 			);
 			name = finish;
+			sourceTree = "<group>";
+		};
+		903DFBC01CFC372A00A656B4 /* jelly_study */ = {
+			isa = PBXGroup;
+			children = (
+				903DFBC61CFC3C2400A656B4 /* finish */,
+				903DFBC11CFC3ADB00A656B4 /* jelly_study.h */,
+				903DFBC21CFC3AF100A656B4 /* LayerJellyStudyUI.cpp */,
+				903DFBC31CFC3AF100A656B4 /* LayerJellyStudyUI.h */,
+			);
+			path = jelly_study;
+			sourceTree = "<group>";
+		};
+		903DFBC61CFC3C2400A656B4 /* finish */ = {
+			isa = PBXGroup;
+			children = (
+				903DFBC91CFC3C4200A656B4 /* extension */,
+			);
+			name = finish;
+			sourceTree = "<group>";
+		};
+		903DFBC91CFC3C4200A656B4 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				903DFBCD1CFC3C9200A656B4 /* LayerJellyStudy00.cpp */,
+				903DFBCE1CFC3C9200A656B4 /* LayerJellyStudy00.h */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 		9044DF131CC0D31E00CC9BFC /* extension */ = {
@@ -948,11 +984,13 @@
 				90FB66951CA380CC00734AFC /* LayerShaderStudy06.cpp in Sources */,
 				903085FF1CC2153F001A56DF /* LayerExperiment02.cpp in Sources */,
 				90C431D11CA11B64004A951F /* BaseBackLayer.cpp in Sources */,
+				903DFBCF1CFC3C9200A656B4 /* LayerJellyStudy00.cpp in Sources */,
 				90C432161CA160C7004A951F /* LayerAnimationStudy02.cpp in Sources */,
 				9044DF2F1CC0D31E00CC9BFC /* LayerShaderPractice00.cpp in Sources */,
 				90FB66921CA37E9700734AFC /* LayerShaderStudy05.cpp in Sources */,
 				9090AC411CA8BAB50075D530 /* LayerAnimationPractice01.cpp in Sources */,
 				9044DF311CC0D31E00CC9BFC /* LayerShaderPractice02.cpp in Sources */,
+				903DFBC41CFC3AF100A656B4 /* LayerJellyStudyUI.cpp in Sources */,
 				903085F91CC211DD001A56DF /* LayerExperiment01.cpp in Sources */,
 				90C4320A1CA148A0004A951F /* LayerAnimationStudyUI.cpp in Sources */,
 				90C432191CA16248004A951F /* LayerAnimationStudy03.cpp in Sources */,

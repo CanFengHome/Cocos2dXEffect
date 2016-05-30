@@ -42,7 +42,8 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
     Scene* pSceneFunction = Scene::create();
     Layer* pLyrTest = nullptr;
     
-    switch (selIndex) {
+    switch (selIndex)
+    {
         case 0:
             pLyrTest = LayerAnimationStudyUI::create();
             break;
@@ -80,12 +81,20 @@ bool SceneMain::init()
 {
     LayerMainDataList* pLyrMain = LayerMainDataList::create();
     addChild(pLyrMain);
+    addChild(CloseBackLayer::create());
     
     return true;
 }
 
-
-
+#pragma mark CloseBackLayer
+void CloseBackLayer::gotoNextScene()
+{
+    Director::getInstance()->end();
+    
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    exit(0);
+#endif
+}
 
 
 
