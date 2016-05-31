@@ -20,7 +20,7 @@ void LayerJellyStudyUI::initFunNames()
 {
     m_arrFunName.clear();
     
-    m_arrFunName.push_back("00 test");
+    m_arrFunName.push_back("00 SimpleButton");
 }
 
 void LayerJellyStudyUI::clickFunIndex(ssize_t selIndex)

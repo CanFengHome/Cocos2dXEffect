@@ -9,7 +9,7 @@
 #ifndef jelly_study_h
 #define jelly_study_h
 
-// 00 test
+// 00 SimpleButton
 #include "LayerJellyStudy00.h"
 
 

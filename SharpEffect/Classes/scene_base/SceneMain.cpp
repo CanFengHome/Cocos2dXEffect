@@ -18,6 +18,8 @@
 
 #include "LayerExperimentUI.h"
 
+#include "LayerJellyStudyUI.h"
+
 using namespace std;
 USING_NS_CC;
 using namespace ui;
@@ -35,6 +37,7 @@ void LayerMainDataList::initFunNames()
     m_arrFunName.push_back("04 粒子学习");
     m_arrFunName.push_back("05 粒子实践");
     m_arrFunName.push_back("06 实验");
+    m_arrFunName.push_back("07 JellyStudy");
 }
 
 void LayerMainDataList::clickFunIndex(ssize_t selIndex)
@@ -61,6 +64,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
             break;
         case 6:
             pLyrTest = LayerExperimentUI::create();
+            break;
+        case 7:
+            pLyrTest = LayerJellyStudyUI::create();
             break;
         default:
             break;
