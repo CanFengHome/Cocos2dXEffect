@@ -11,6 +11,7 @@
 
 // 00 SimpleButton
 #include "LayerJellyStudy00.h"
-
+// 01 Swing
+#include "LayerJellyStudy01.h"
 
 #endif /* jelly_study_h */

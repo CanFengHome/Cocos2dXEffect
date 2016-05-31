@@ -21,6 +21,9 @@ void LayerJellyStudyUI::initFunNames()
     m_arrFunName.clear();
     
     m_arrFunName.push_back("00 SimpleButton");
+    m_arrFunName.push_back("01 Swing");
+    
+    
 }
 
 void LayerJellyStudyUI::clickFunIndex(ssize_t selIndex)
@@ -30,6 +33,7 @@ void LayerJellyStudyUI::clickFunIndex(ssize_t selIndex)
     
     switch (selIndex) {
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerJellyStudy, 00);
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerJellyStudy, 01);
             
         case 8:
             break;

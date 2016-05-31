@@ -86,6 +86,7 @@
 		90582FD01CFD8D2C00127D83 /* EaseElasticOutWithCoefficient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90582FCC1CFD8D2C00127D83 /* EaseElasticOutWithCoefficient.cpp */; };
 		90582FD11CFD8D2C00127D83 /* SimpleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90582FCE1CFD8D2C00127D83 /* SimpleButton.cpp */; };
 		90582FD41CFD8D4500127D83 /* LayerJellyStudy00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90582FD21CFD8D4500127D83 /* LayerJellyStudy00.cpp */; };
+		90582FD91CFD971300127D83 /* LayerJellyStudy01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90582FD71CFD971300127D83 /* LayerJellyStudy01.cpp */; };
 		9090AC411CA8BAB50075D530 /* LayerAnimationPractice01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9090AC3F1CA8BAB50075D530 /* LayerAnimationPractice01.cpp */; };
 		9090AC451CA8BB1C0075D530 /* ActionShake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9090AC431CA8BB1C0075D530 /* ActionShake.cpp */; };
 		90C431C91CA0F6AF004A951F /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FAEE491CA0F1DC00B7E924 /* libcocos2d iOS.a */; };
@@ -262,6 +263,8 @@
 		90582FD21CFD8D4500127D83 /* LayerJellyStudy00.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerJellyStudy00.cpp; sourceTree = "<group>"; };
 		90582FD31CFD8D4500127D83 /* LayerJellyStudy00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerJellyStudy00.h; sourceTree = "<group>"; };
 		90582FD51CFD8E1200127D83 /* MacrosAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacrosAssert.h; sourceTree = "<group>"; };
+		90582FD71CFD971300127D83 /* LayerJellyStudy01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerJellyStudy01.cpp; sourceTree = "<group>"; };
+		90582FD81CFD971300127D83 /* LayerJellyStudy01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerJellyStudy01.h; sourceTree = "<group>"; };
 		9090AC3F1CA8BAB50075D530 /* LayerAnimationPractice01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationPractice01.cpp; sourceTree = "<group>"; };
 		9090AC401CA8BAB50075D530 /* LayerAnimationPractice01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationPractice01.h; sourceTree = "<group>"; };
 		9090AC431CA8BB1C0075D530 /* ActionShake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionShake.cpp; sourceTree = "<group>"; };
@@ -576,10 +579,12 @@
 		903DFBC61CFC3C2400A656B4 /* finish */ = {
 			isa = PBXGroup;
 			children = (
-				90582FD21CFD8D4500127D83 /* LayerJellyStudy00.cpp */,
-				90582FD31CFD8D4500127D83 /* LayerJellyStudy00.h */,
 				903DFBD01CFC561800A656B4 /* 00JellyStudy笔记.docx */,
 				903DFBC91CFC3C4200A656B4 /* extension */,
+				90582FD21CFD8D4500127D83 /* LayerJellyStudy00.cpp */,
+				90582FD31CFD8D4500127D83 /* LayerJellyStudy00.h */,
+				90582FD71CFD971300127D83 /* LayerJellyStudy01.cpp */,
+				90582FD81CFD971300127D83 /* LayerJellyStudy01.h */,
 			);
 			name = finish;
 			sourceTree = "<group>";
@@ -1005,6 +1010,7 @@
 				9044DF2F1CC0D31E00CC9BFC /* LayerShaderPractice00.cpp in Sources */,
 				90FB66921CA37E9700734AFC /* LayerShaderStudy05.cpp in Sources */,
 				9090AC411CA8BAB50075D530 /* LayerAnimationPractice01.cpp in Sources */,
+				90582FD91CFD971300127D83 /* LayerJellyStudy01.cpp in Sources */,
 				9044DF311CC0D31E00CC9BFC /* LayerShaderPractice02.cpp in Sources */,
 				903DFBC41CFC3AF100A656B4 /* LayerJellyStudyUI.cpp in Sources */,
 				903085F91CC211DD001A56DF /* LayerExperiment01.cpp in Sources */,
