@@ -18,6 +18,8 @@
 
 #include "LayerExperimentUI.h"
 
+#include "LayerPhysicsStudyUI.h"
+
 #include "LayerJellyStudyUI.h"
 
 using namespace std;
@@ -37,7 +39,8 @@ void LayerMainDataList::initFunNames()
     m_arrFunName.push_back("04 粒子学习");
     m_arrFunName.push_back("05 粒子实践");
     m_arrFunName.push_back("06 实验");
-    m_arrFunName.push_back("07 JellyStudy");
+    m_arrFunName.push_back("07 物理引擎");
+    m_arrFunName.push_back("08 JellyStudy");
 }
 
 void LayerMainDataList::clickFunIndex(ssize_t selIndex)
@@ -66,6 +69,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
             pLyrTest = LayerExperimentUI::create();
             break;
         case 7:
+            pLyrTest = LayerPhysicsStudyUI::create();
+            break;
+        case 8:
             pLyrTest = LayerJellyStudyUI::create();
             break;
         default:
