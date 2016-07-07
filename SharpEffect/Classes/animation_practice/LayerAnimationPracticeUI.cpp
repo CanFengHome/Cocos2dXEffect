@@ -22,6 +22,7 @@ void LayerAnimationPracticeUI::initFunNames()
     m_arrFunName.push_back("00 气泡抖动");
     m_arrFunName.push_back("01 抖动动画");
     m_arrFunName.push_back("02 字幕动画");
+    m_arrFunName.push_back("03 Bezier插值曲线动画");
 }
 
 void LayerAnimationPracticeUI::clickFunIndex(ssize_t selIndex)
@@ -33,7 +34,8 @@ void LayerAnimationPracticeUI::clickFunIndex(ssize_t selIndex)
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerAnimationPractice, 00);
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerAnimationPractice, 01);
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerAnimationPractice, 02);
-
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerAnimationPractice, 03);
+            
         case 8:
             break;
         case 9:

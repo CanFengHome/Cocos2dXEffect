@@ -116,6 +116,7 @@
 		90FB66951CA380CC00734AFC /* LayerShaderStudy06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66931CA380CC00734AFC /* LayerShaderStudy06.cpp */; };
 		90FB66981CA381B400734AFC /* LayerShaderStudy07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB66961CA381B400734AFC /* LayerShaderStudy07.cpp */; };
 		90FB66A11CA3843100734AFC /* LayerShaderPracticeUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FB669F1CA3843100734AFC /* LayerShaderPracticeUI.cpp */; };
+		90FE6D8A1D2E5DA7007FFC22 /* LayerAnimationPractice03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FE6D881D2E5DA7007FFC22 /* LayerAnimationPractice03.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -141,6 +142,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = A07A4D641783777C0073F6A7;
 			remoteInfo = "libcocos2d iOS";
+		};
+		90FE6D861D2E5D35007FFC22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90FAEE411CA0F1DB00B7E924 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 507B40FD1C31BDD30067B53E;
+			remoteInfo = "libcocos2d tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -330,6 +338,8 @@
 		90FB66971CA381B400734AFC /* LayerShaderStudy07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderStudy07.h; sourceTree = "<group>"; };
 		90FB669F1CA3843100734AFC /* LayerShaderPracticeUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPracticeUI.cpp; sourceTree = "<group>"; };
 		90FB66A01CA3843100734AFC /* LayerShaderPracticeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPracticeUI.h; sourceTree = "<group>"; };
+		90FE6D881D2E5DA7007FFC22 /* LayerAnimationPractice03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationPractice03.cpp; sourceTree = "<group>"; };
+		90FE6D891D2E5DA7007FFC22 /* LayerAnimationPractice03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationPractice03.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -741,6 +751,7 @@
 			children = (
 				90FAEE471CA0F1DC00B7E924 /* libcocos2d Mac.a */,
 				90FAEE491CA0F1DC00B7E924 /* libcocos2d iOS.a */,
+				90FE6D871D2E5D35007FFC22 /* libcocos2d tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -799,6 +810,8 @@
 				9090AC401CA8BAB50075D530 /* LayerAnimationPractice01.h */,
 				9038B37C1CF5538F00D0097F /* LayerAnimationPractice02.cpp */,
 				9038B37D1CF5538F00D0097F /* LayerAnimationPractice02.h */,
+				90FE6D881D2E5DA7007FFC22 /* LayerAnimationPractice03.cpp */,
+				90FE6D891D2E5DA7007FFC22 /* LayerAnimationPractice03.h */,
 			);
 			name = finish;
 			sourceTree = "<group>";
@@ -948,6 +961,13 @@
 			remoteRef = 90FAEE481CA0F1DC00B7E924 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		90FE6D871D2E5D35007FFC22 /* libcocos2d tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d tvOS.a";
+			remoteRef = 90FE6D861D2E5D35007FFC22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1056,6 +1076,7 @@
 				90C432191CA16248004A951F /* LayerAnimationStudy03.cpp in Sources */,
 				90582FD01CFD8D2C00127D83 /* EaseElasticOutWithCoefficient.cpp in Sources */,
 				9044DF2D1CC0D31E00CC9BFC /* ShaderDemoNode.cpp in Sources */,
+				90FE6D8A1D2E5DA7007FFC22 /* LayerAnimationPractice03.cpp in Sources */,
 				9090AC451CA8BB1C0075D530 /* ActionShake.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				90C431D41CA11E71004A951F /* BaseDataListLayer.cpp in Sources */,

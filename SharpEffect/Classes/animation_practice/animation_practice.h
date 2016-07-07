@@ -15,7 +15,8 @@
 #include "LayerAnimationPractice01.h"
 // 02 字幕动画
 #include "LayerAnimationPractice02.h"
-
+// 03 Bezier插值曲线动画
+#include "LayerAnimationPractice03.h"
 
 
 
