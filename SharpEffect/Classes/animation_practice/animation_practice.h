@@ -19,7 +19,8 @@
 #include "LayerAnimationPractice03.h"
 // 04 棋子掉落动画
 #include "LayerAnimationPractice04.h"
-
+// 05 路线进度动画
+#include "LayerAnimationPractice05.h"
 
 #endif /* animation_practice_h */
 
