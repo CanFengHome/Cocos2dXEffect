@@ -85,6 +85,7 @@
 		9044DF341CC0D31E00CC9BFC /* LayerShaderPractice05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF241CC0D31E00CC9BFC /* LayerShaderPractice05.cpp */; };
 		9044DF351CC0D31E00CC9BFC /* LayerShaderPractice06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF261CC0D31E00CC9BFC /* LayerShaderPractice06.cpp */; };
 		9044DF3B1CC0D33E00CC9BFC /* LayerShaderPractice07.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9044DF391CC0D33E00CC9BFC /* LayerShaderPractice07.cpp */; };
+		9055E1991D40B6470027DBD8 /* LayerAnimationPractice04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9055E1971D40B6470027DBD8 /* LayerAnimationPractice04.cpp */; };
 		90582FD01CFD8D2C00127D83 /* EaseElasticOutWithCoefficient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90582FCC1CFD8D2C00127D83 /* EaseElasticOutWithCoefficient.cpp */; };
 		90582FD11CFD8D2C00127D83 /* SimpleButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90582FCE1CFD8D2C00127D83 /* SimpleButton.cpp */; };
 		90582FD41CFD8D4500127D83 /* LayerJellyStudy00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90582FD21CFD8D4500127D83 /* LayerJellyStudy00.cpp */; };
@@ -271,6 +272,8 @@
 		9044DF2A1CC0D31E00CC9BFC /* shader_practice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shader_practice.h; sourceTree = "<group>"; };
 		9044DF391CC0D33E00CC9BFC /* LayerShaderPractice07.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPractice07.cpp; sourceTree = "<group>"; };
 		9044DF3A1CC0D33E00CC9BFC /* LayerShaderPractice07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPractice07.h; sourceTree = "<group>"; };
+		9055E1971D40B6470027DBD8 /* LayerAnimationPractice04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerAnimationPractice04.cpp; sourceTree = "<group>"; };
+		9055E1981D40B6470027DBD8 /* LayerAnimationPractice04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationPractice04.h; sourceTree = "<group>"; };
 		90582FCC1CFD8D2C00127D83 /* EaseElasticOutWithCoefficient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EaseElasticOutWithCoefficient.cpp; sourceTree = "<group>"; };
 		90582FCD1CFD8D2C00127D83 /* EaseElasticOutWithCoefficient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseElasticOutWithCoefficient.h; sourceTree = "<group>"; };
 		90582FCE1CFD8D2C00127D83 /* SimpleButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleButton.cpp; sourceTree = "<group>"; };
@@ -812,6 +815,8 @@
 				9038B37D1CF5538F00D0097F /* LayerAnimationPractice02.h */,
 				90FE6D881D2E5DA7007FFC22 /* LayerAnimationPractice03.cpp */,
 				90FE6D891D2E5DA7007FFC22 /* LayerAnimationPractice03.h */,
+				9055E1971D40B6470027DBD8 /* LayerAnimationPractice04.cpp */,
+				9055E1981D40B6470027DBD8 /* LayerAnimationPractice04.h */,
 			);
 			name = finish;
 			sourceTree = "<group>";
@@ -1061,6 +1066,7 @@
 				9044DF351CC0D31E00CC9BFC /* LayerShaderPractice06.cpp in Sources */,
 				9038B37E1CF5538F00D0097F /* LayerAnimationPractice02.cpp in Sources */,
 				90FB66951CA380CC00734AFC /* LayerShaderStudy06.cpp in Sources */,
+				9055E1991D40B6470027DBD8 /* LayerAnimationPractice04.cpp in Sources */,
 				903085FF1CC2153F001A56DF /* LayerExperiment02.cpp in Sources */,
 				90C431D11CA11B64004A951F /* BaseBackLayer.cpp in Sources */,
 				90C432161CA160C7004A951F /* LayerAnimationStudy02.cpp in Sources */,

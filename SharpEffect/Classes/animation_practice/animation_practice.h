@@ -17,7 +17,8 @@
 #include "LayerAnimationPractice02.h"
 // 03 Bezier插值曲线动画
 #include "LayerAnimationPractice03.h"
-
+// 04 棋子掉落动画
+#include "LayerAnimationPractice04.h"
 
 
 #endif /* animation_practice_h */
