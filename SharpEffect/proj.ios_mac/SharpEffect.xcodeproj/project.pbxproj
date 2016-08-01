@@ -48,6 +48,9 @@
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		90183FA71D4F3A4000A4297F /* LayerShaderPractice08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90183FA51D4F3A4000A4297F /* LayerShaderPractice08.cpp */; };
+		90183FAD1D4F3CB900A4297F /* LayerShaderPractice09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90183FAB1D4F3CB900A4297F /* LayerShaderPractice09.cpp */; };
+		90183FB01D4F3F0E00A4297F /* LayerShaderPractice10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90183FAE1D4F3F0E00A4297F /* LayerShaderPractice10.cpp */; };
 		901FC99C1CFFE4F1004E56D8 /* LayerPhysicsStudyUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 901FC99A1CFFE4F1004E56D8 /* LayerPhysicsStudyUI.cpp */; };
 		901FC9A11CFFE5AE004E56D8 /* LayerPhysicsStudy00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 901FC99F1CFFE5AE004E56D8 /* LayerPhysicsStudy00.cpp */; };
 		902356CE1CA2A0CA0041BAF0 /* LayerAnimationStudy05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 902356CC1CA2A0CA0041BAF0 /* LayerAnimationStudy05.cpp */; };
@@ -199,6 +202,12 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		90183FA51D4F3A4000A4297F /* LayerShaderPractice08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPractice08.cpp; sourceTree = "<group>"; };
+		90183FA61D4F3A4000A4297F /* LayerShaderPractice08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPractice08.h; sourceTree = "<group>"; };
+		90183FAB1D4F3CB900A4297F /* LayerShaderPractice09.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPractice09.cpp; sourceTree = "<group>"; };
+		90183FAC1D4F3CB900A4297F /* LayerShaderPractice09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPractice09.h; sourceTree = "<group>"; };
+		90183FAE1D4F3F0E00A4297F /* LayerShaderPractice10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPractice10.cpp; sourceTree = "<group>"; };
+		90183FAF1D4F3F0E00A4297F /* LayerShaderPractice10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPractice10.h; sourceTree = "<group>"; };
 		901FC9991CFFE4DD004E56D8 /* physics_study.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = physics_study.h; sourceTree = "<group>"; };
 		901FC99A1CFFE4F1004E56D8 /* LayerPhysicsStudyUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerPhysicsStudyUI.cpp; sourceTree = "<group>"; };
 		901FC99B1CFFE4F1004E56D8 /* LayerPhysicsStudyUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerPhysicsStudyUI.h; sourceTree = "<group>"; };
@@ -881,6 +890,12 @@
 				9044DF271CC0D31E00CC9BFC /* LayerShaderPractice06.h */,
 				9044DF391CC0D33E00CC9BFC /* LayerShaderPractice07.cpp */,
 				9044DF3A1CC0D33E00CC9BFC /* LayerShaderPractice07.h */,
+				90183FA51D4F3A4000A4297F /* LayerShaderPractice08.cpp */,
+				90183FA61D4F3A4000A4297F /* LayerShaderPractice08.h */,
+				90183FAB1D4F3CB900A4297F /* LayerShaderPractice09.cpp */,
+				90183FAC1D4F3CB900A4297F /* LayerShaderPractice09.h */,
+				90183FAE1D4F3F0E00A4297F /* LayerShaderPractice10.cpp */,
+				90183FAF1D4F3F0E00A4297F /* LayerShaderPractice10.h */,
 			);
 			name = finish;
 			sourceTree = "<group>";
@@ -1029,6 +1044,7 @@
 			files = (
 				9055E1A11D40BAB60027DBD8 /* LayerAnimationPractice05.cpp in Sources */,
 				90FB667C1CA365FC00734AFC /* LayerShaderStudy00.cpp in Sources */,
+				90183FAD1D4F3CB900A4297F /* LayerShaderPractice09.cpp in Sources */,
 				90FB66A11CA3843100734AFC /* LayerShaderPracticeUI.cpp in Sources */,
 				902356CE1CA2A0CA0041BAF0 /* LayerAnimationStudy05.cpp in Sources */,
 				903086051CC218B0001A56DF /* LayerExperiment03.cpp in Sources */,
@@ -1071,6 +1087,7 @@
 				90582FD11CFD8D2C00127D83 /* SimpleButton.cpp in Sources */,
 				9044DF351CC0D31E00CC9BFC /* LayerShaderPractice06.cpp in Sources */,
 				9038B37E1CF5538F00D0097F /* LayerAnimationPractice02.cpp in Sources */,
+				90183FB01D4F3F0E00A4297F /* LayerShaderPractice10.cpp in Sources */,
 				90FB66951CA380CC00734AFC /* LayerShaderStudy06.cpp in Sources */,
 				9055E1991D40B6470027DBD8 /* LayerAnimationPractice04.cpp in Sources */,
 				903085FF1CC2153F001A56DF /* LayerExperiment02.cpp in Sources */,
@@ -1081,6 +1098,7 @@
 				9090AC411CA8BAB50075D530 /* LayerAnimationPractice01.cpp in Sources */,
 				90582FD91CFD971300127D83 /* LayerJellyStudy01.cpp in Sources */,
 				9044DF311CC0D31E00CC9BFC /* LayerShaderPractice02.cpp in Sources */,
+				90183FA71D4F3A4000A4297F /* LayerShaderPractice08.cpp in Sources */,
 				903DFBC41CFC3AF100A656B4 /* LayerJellyStudyUI.cpp in Sources */,
 				903085F91CC211DD001A56DF /* LayerExperiment01.cpp in Sources */,
 				901FC99C1CFFE4F1004E56D8 /* LayerPhysicsStudyUI.cpp in Sources */,

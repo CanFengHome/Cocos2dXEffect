@@ -33,6 +33,16 @@
 // 07 使用shader模拟ClippingNode功能
 #include "LayerShaderPractice07.h"
 
+// 08 水池效果
+#include "LayerShaderPractice08.h"
+
+// 09 UV动画
+#include "LayerShaderPractice09.h"
+
+// 10 漩涡效果
+#include "LayerShaderPractice10.h"
+
+
 #endif /* shader_practice_h */
 
 

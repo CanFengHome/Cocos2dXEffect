@@ -27,6 +27,9 @@ void LayerShaderPracticeUI::initFunNames()
     m_arrFunName.push_back("05 shader darw circle");
     m_arrFunName.push_back("06 心形跳动");
     m_arrFunName.push_back("07 使用shader模拟ClippingNode功能");
+    m_arrFunName.push_back("08 水池效果");
+    m_arrFunName.push_back("09 UV动画");
+    m_arrFunName.push_back("10 漩涡效果");
     
 }
 
@@ -44,13 +47,13 @@ void LayerShaderPracticeUI::clickFunIndex(ssize_t selIndex)
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 05);
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 06);
             CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 07);
-
-            
         case 8:
+            pLyrTest = LayerShaderPractice08::create();
             break;
         case 9:
+            pLyrTest = LayerShaderPractice09::create();
             break;
-            
+            CREATE_TEST_LAYER_FUNC(pLyrTest, LayerShaderPractice, 10);
             
         default:
             break;
