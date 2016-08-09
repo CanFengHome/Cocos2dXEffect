@@ -22,6 +22,8 @@
 
 #include "LayerJellyStudyUI.h"
 
+#include "LayerCommonCodeUI.h"
+
 using namespace std;
 USING_NS_CC;
 using namespace ui;
@@ -41,6 +43,7 @@ void LayerMainDataList::initFunNames()
     m_arrFunName.push_back("06 实验");
     m_arrFunName.push_back("07 物理引擎");
     m_arrFunName.push_back("08 JellyStudy");
+    m_arrFunName.push_back("09 常用代码");
 }
 
 void LayerMainDataList::clickFunIndex(ssize_t selIndex)
@@ -73,6 +76,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
             break;
         case 8:
             pLyrTest = LayerJellyStudyUI::create();
+            break;
+        case 9:
+            pLyrTest = LayerCommonCodeUI::create();
             break;
         default:
             break;

@@ -48,6 +48,10 @@
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		9010A2251D59829900EABB84 /* LayerCommonCodeUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9010A2231D59829900EABB84 /* LayerCommonCodeUI.cpp */; };
+		9010A2281D59831700EABB84 /* LayerCommonCode00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9010A2261D59831700EABB84 /* LayerCommonCode00.cpp */; };
+		9010A22C1D5984AB00EABB84 /* DesEncryption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9010A22A1D5984AB00EABB84 /* DesEncryption.cpp */; };
+		9010A22F1D59852500EABB84 /* EncryptionHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9010A22D1D59852500EABB84 /* EncryptionHandler.cpp */; };
 		90183FA71D4F3A4000A4297F /* LayerShaderPractice08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90183FA51D4F3A4000A4297F /* LayerShaderPractice08.cpp */; };
 		90183FAD1D4F3CB900A4297F /* LayerShaderPractice09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90183FAB1D4F3CB900A4297F /* LayerShaderPractice09.cpp */; };
 		90183FB01D4F3F0E00A4297F /* LayerShaderPractice10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90183FAE1D4F3F0E00A4297F /* LayerShaderPractice10.cpp */; };
@@ -202,6 +206,15 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9010A2221D59826300EABB84 /* common_code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common_code.h; sourceTree = "<group>"; };
+		9010A2231D59829900EABB84 /* LayerCommonCodeUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerCommonCodeUI.cpp; sourceTree = "<group>"; };
+		9010A2241D59829900EABB84 /* LayerCommonCodeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerCommonCodeUI.h; sourceTree = "<group>"; };
+		9010A2261D59831700EABB84 /* LayerCommonCode00.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerCommonCode00.cpp; sourceTree = "<group>"; };
+		9010A2271D59831700EABB84 /* LayerCommonCode00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerCommonCode00.h; sourceTree = "<group>"; };
+		9010A22A1D5984AB00EABB84 /* DesEncryption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DesEncryption.cpp; sourceTree = "<group>"; };
+		9010A22B1D5984AB00EABB84 /* DesEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesEncryption.h; sourceTree = "<group>"; };
+		9010A22D1D59852500EABB84 /* EncryptionHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EncryptionHandler.cpp; sourceTree = "<group>"; };
+		9010A22E1D59852500EABB84 /* EncryptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionHandler.h; sourceTree = "<group>"; };
 		90183FA51D4F3A4000A4297F /* LayerShaderPractice08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPractice08.cpp; sourceTree = "<group>"; };
 		90183FA61D4F3A4000A4297F /* LayerShaderPractice08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerShaderPractice08.h; sourceTree = "<group>"; };
 		90183FAB1D4F3CB900A4297F /* LayerShaderPractice09.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerShaderPractice09.cpp; sourceTree = "<group>"; };
@@ -484,6 +497,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9010A2201D59822800EABB84 /* common_code */,
 				903DFBC01CFC372A00A656B4 /* jelly_study */,
 				901FC9961CFFE4BC004E56D8 /* physics_study */,
 				903085CC1CC20A8D001A56DF /* experiment */,
@@ -547,6 +561,38 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		9010A2201D59822800EABB84 /* common_code */ = {
+			isa = PBXGroup;
+			children = (
+				9010A2291D59833C00EABB84 /* finish */,
+				9010A2211D59824700EABB84 /* extension */,
+				9010A2221D59826300EABB84 /* common_code.h */,
+				9010A2231D59829900EABB84 /* LayerCommonCodeUI.cpp */,
+				9010A2241D59829900EABB84 /* LayerCommonCodeUI.h */,
+			);
+			path = common_code;
+			sourceTree = "<group>";
+		};
+		9010A2211D59824700EABB84 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				9010A22D1D59852500EABB84 /* EncryptionHandler.cpp */,
+				9010A22E1D59852500EABB84 /* EncryptionHandler.h */,
+				9010A22A1D5984AB00EABB84 /* DesEncryption.cpp */,
+				9010A22B1D5984AB00EABB84 /* DesEncryption.h */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		9010A2291D59833C00EABB84 /* finish */ = {
+			isa = PBXGroup;
+			children = (
+				9010A2261D59831700EABB84 /* LayerCommonCode00.cpp */,
+				9010A2271D59831700EABB84 /* LayerCommonCode00.h */,
+			);
+			name = finish;
+			sourceTree = "<group>";
 		};
 		901FC9961CFFE4BC004E56D8 /* physics_study */ = {
 			isa = PBXGroup;
@@ -1045,6 +1091,7 @@
 				9055E1A11D40BAB60027DBD8 /* LayerAnimationPractice05.cpp in Sources */,
 				90FB667C1CA365FC00734AFC /* LayerShaderStudy00.cpp in Sources */,
 				90183FAD1D4F3CB900A4297F /* LayerShaderPractice09.cpp in Sources */,
+				9010A2251D59829900EABB84 /* LayerCommonCodeUI.cpp in Sources */,
 				90FB66A11CA3843100734AFC /* LayerShaderPracticeUI.cpp in Sources */,
 				902356CE1CA2A0CA0041BAF0 /* LayerAnimationStudy05.cpp in Sources */,
 				903086051CC218B0001A56DF /* LayerExperiment03.cpp in Sources */,
@@ -1107,8 +1154,11 @@
 				90582FD01CFD8D2C00127D83 /* EaseElasticOutWithCoefficient.cpp in Sources */,
 				9044DF2D1CC0D31E00CC9BFC /* ShaderDemoNode.cpp in Sources */,
 				90FE6D8A1D2E5DA7007FFC22 /* LayerAnimationPractice03.cpp in Sources */,
+				9010A22F1D59852500EABB84 /* EncryptionHandler.cpp in Sources */,
 				9090AC451CA8BB1C0075D530 /* ActionShake.cpp in Sources */,
+				9010A2281D59831700EABB84 /* LayerCommonCode00.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				9010A22C1D5984AB00EABB84 /* DesEncryption.cpp in Sources */,
 				90C431D41CA11E71004A951F /* BaseDataListLayer.cpp in Sources */,
 				9044DF301CC0D31E00CC9BFC /* LayerShaderPractice01.cpp in Sources */,
 				90582FD41CFD8D4500127D83 /* LayerJellyStudy00.cpp in Sources */,
